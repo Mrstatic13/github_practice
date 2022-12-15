@@ -1,0 +1,56 @@
+#rightSide {
+    flex: 1;
+    border-style: groove;
+    text-align: center;
+}
+
+#leftSide {
+    flex: 1;
+    border-style: groove;
+    text-align: center;
+}
+
+#flex-container {
+    display: flex;
+    border-style: groove;
+    background-color: white;
+    opacity: 60%;
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+    color: white;
+}
+
+#inputs, #bttmInputs{
+    display: flex;
+    justify-content: space-between;
+    color: white;
+}
+
+body {
+    background-image:url('https://cdn.pixabay.com/photo/2018/01/14/23/12/nature-3082832_960_720.jpg');
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+
+}
+
+h4 {
+  text-align: center;
+}
+
+
+/* 
+.rightBar {
+    display: flex;
+    justify-content: space-between;
+}
+
+.leftBar {
+    display: inline-flex;
+    justify-content: left;
+} */
+
